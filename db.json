@@ -1,51 +1,94 @@
 {
-  "us" : [
-    {
-        "symbol": "AAPL",
-        "smA5": 367.774,
-        "smA5Percent": 1.3366904675153762908742869300,
-        "smA10": 364.398,
-        "smA10Percent": 2.2755338942584756228080285800,
-        "smA20": 357.2515,
-        "smA20Percent": 4.3214654102222104035952263300,
-        "smA50": 330.1286,
-        "smA50Percent": 12.892369821942115890595361930,
-        "smA100": 301.6683,
-        "smA100Percent": 23.542977502110762052227562520,
-        "smA200": 284.73925,
-        "smA200Percent": 30.888172248820631507598618740,
-        "smA365": 241.67493150684931506849315068,
-        "smA365Percent": 54.211277800419107065020544410,
-        "smA730": 230.96240325865580448065173116,
-        "smA730Percent": 61.363925358285625701152725500,
-        "currentPrice": 372.69,
-        "currentPricePercent": -0.3102848736124113949444964600,
-        "market": "US",
-        "dayBeforePrice": 373.85
-    },
-    {
-        "symbol": "ABBV",
-        "smA5": 99.052,
-        "smA5Percent": 0.300852077696563421233291600,
-        "smA10": 97.814,
-        "smA10Percent": 1.5703273560022082728443781100,
-        "smA20": 96.608,
-        "smA20Percent": 2.8382742630009937065253395200,
-        "smA50": 92.1018,
-        "smA50Percent": 7.8697701890733948739329741700,
-        "smA100": 86.8012,
-        "smA100Percent": 14.456942991571545093846628850,
-        "smA200": 84.53395,
-        "smA200Percent": 17.526745171614481518963682640,
-        "smA365": 80.91857534246575342465753425,
-        "smA365Percent": 22.777742415172634219144020300,
-        "smA730": 83.55741344195519348268839104,
-        "smA730Percent": 18.900281743421172899885416050,
-        "currentPrice": 99.35,
-        "currentPricePercent": 0.3433996566003433996566003400,
-        "market": "US",
-        "dayBeforePrice": 99.01
-    }
-    
-]
+    "markets": [
+        {
+            "market": "US",
+            "symbols": [
+                {
+                    "symbol": "AAPL",
+                    "currentPrice": 372.69,
+                    "dayBeforePrice": 373.85,
+                    "currentPricePercent": -0.31,
+                    "smas": [
+                        {
+                            "Days": 5,
+                            "value": 367.774,
+                            "Percent": 1.33
+                        },
+                        {
+                            "Days": 10,
+                            "value": 367.774,
+                            "Percent": 1.33
+                        },
+                        {
+                            "Days": 20,
+                            "value": 367.774,
+                            "Percent": 1.33
+                        },
+                        {
+                            "Days": 50,
+                            "value": 367.774,
+                            "Percent": 1.33
+                        },
+                        {
+                            "Days": 100,
+                            "value": 367.774,
+                            "Percent": 1.33
+                        },
+                        {
+                            "Days": 200,
+                            "value": 367.774,
+                            "Percent": 1.33
+                        },
+                        {
+                            "Days": 365,
+                            "value": 367.774,
+                            "Percent": 1.33
+                        },
+                        {
+                            "Days": 730,
+                            "value": 367.774,
+                            "Percent": 1.33
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "users": [
+        {
+            "firstName": "Francis",
+            "lastName": "Vaz",
+            "dateOfBirth": "18/10/1978",
+            "email": "fran@fran.com",
+            "dateAdded": null,
+            "dateJoined": null,
+            "dateLeft": null,
+            "userType": "counselor",
+            "languages": [
+                "hindi",
+                "english",
+                "marathi"
+            ],
+            "addresses": [
+                {
+                    "type": "home",
+                    "addressLine1": "al1",
+                    "addressLine2": "al2",
+                    "city": "city1",
+                    "state": "state1",
+                    "postcode": "postcode1",
+                    "country": "country1"
+                },
+                {
+                    "type": "work",
+                    "addressLine1": "al3",
+                    "addressLine2": "al4",
+                    "city": "city2",
+                    "state": "state2",
+                    "postcode": "postcode2",
+                    "country": "country2"
+                }
+            ]
+        }
+    ]
 }
