@@ -92,7 +92,7 @@
         }
     ],
     "stake": {
-        "user": "francis",
+        "id": "francis",
         "deposits": {
             "total": 10000,
             "deposit": [
