@@ -16,7 +16,7 @@
             ]
         },
         "withdrawals": {
-            "total": 10000,
+            "total": -100,
             "withdrawal": [
                 {
                     "date": "2016-05-18T16:00:00Z",
