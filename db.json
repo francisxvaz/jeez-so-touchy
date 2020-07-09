@@ -91,7 +91,7 @@
             ]
         }
     ],
-    "stake": {
+    "stake": [{
         "id": "francis",
         "deposits": {
             "total": 10000,
@@ -209,5 +209,124 @@
                 }
             ]
         }
-    }
+    },
+    {
+        "id": "ethan",
+        "deposits": {
+            "total": 10000,
+            "deposit": [
+                {
+                    "date": "2016-05-18T16:00:00Z",
+                    "amount": 100
+                },
+                {
+                    "date": "2016-05-18T16:00:00Z",
+                    "amount": 200
+                }
+            ]
+        },
+        "withdrawals": {
+            "total": 10000,
+            "withdrawal": [
+                {
+                    "date": "2016-05-18T16:00:00Z",
+                    "amount": -100
+                }
+            ]
+        },
+        "buys": {
+            "total" : 1500,
+            "shares" : [
+                {
+                    "symbol" : "AAPL",
+                    "date": "2016-05-18T16:00:00Z",
+                    "quantity": 1.26,
+                    "priceOfShareAtTransaction": 250,
+                    "totalPriceOfBuy": 300,
+                    "priceOfShareNow":350,
+                    "totalPriceOfBuyNow": 550,
+                    "timeSpanTillNowInMonths": 13,
+                    "percentChangeFromDateOfTransaction": 133 
+                },
+                {
+                    "symbol" : "BABA",
+                    "date": "2016-06-18T16:00:00Z",
+                    "quantity": 2.26,
+                    "priceOfShareAtTransaction": 187,
+                    "totalPriceOfBuy": 388,
+                    "priceOfShareNow":257,
+                    "totalPriceOfBuyNow": 535,
+                    "timeSpanTillNowInMonths": 12,
+                    "percentChangeFromDateOfTransaction": 37 
+                }
+            ]
+        },
+        "sold": {
+            "total" : 1500,
+            "shares" : [
+                {
+                    "symbol" : "AAPL",
+                    "date": "2016-05-18T16:00:00Z",
+                    "quantity": 1.26,
+                    "priceOfShareAtTransaction": 250,
+                    "totalPriceOfBuy": 300,
+                    "priceOfShareNow":350,
+                    "totalPriceOfBuyNow": 550,
+                    "timeSpanTillNowInMonths": 13,
+                    "percentChangeFromDateOfTransaction": 133 
+                },
+                {
+                    "symbol" : "BABA",
+                    "date": "2016-06-18T16:00:00Z",
+                    "quantity": 2.26,
+                    "priceOfShareAtTransaction": 187,
+                    "totalPriceOfBuy": 388,
+                    "priceOfShareNow":257,
+                    "totalPriceOfBuyNow": 535,
+                    "timeSpanTillNowInMonths": 12,
+                    "percentChangeFromDateOfTransaction": 37 
+                }
+            ]
+        },
+        "dividend": {
+            "total" : 150,
+            "shares" : [
+                {
+                    "symbol" : "AAPL",
+                    "date": "2016-05-18T16:00:00Z",
+                    "amount": 1.26,
+                    "description": "DIV:AAPL(0.6300/sh):TAXCD:A"
+                },
+                {
+                    "symbol" : "AAPL",
+                    "date": "2016-05-18T16:00:00Z",
+                    "amount": 4.30,
+                    "description": "DIV:MCD(1.0100/sh):TAXCD:A"
+                }            ]
+        },
+        "current": {
+            "totalToday": 9000,
+            "todaysProfitLoss": -50,
+            "todaysPercentChange": -1.56,
+            "moneyLeftOnStake": 1000,
+            "details" : [
+                {
+                    "symbol" : "AAPL",
+                    "change" : 0.59,
+                    "shares" : 10,
+                    "marketValue" : 559,
+                    "profitLoss" : 35,
+                    "profitLossPercent" : 0.35
+                },
+                {
+                    "symbol" : "BA",
+                    "change" : 0.59,
+                    "shares" : 10,
+                    "marketValue" : 559,
+                    "profitLoss" : 35,
+                    "profitLossPercent" : 0.35
+                }
+            ]
+        }
+    }]
 }
