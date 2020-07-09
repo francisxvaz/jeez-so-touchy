@@ -1,7 +1,7 @@
 {
 "users": [
     {
-        "id": "Ethan",
+        "id": "ethan",
         "deposits": {
             "total": 10000,
             "deposit": [
